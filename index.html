@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovely Health</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Font Awesome -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+
+    
+    
+>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-box">
+                <h1 >Lovely Health</h1>
+            </div>
+
+            <div class="navbar-box" id="nav-links">
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentang">Tentang Kami</a></li>
+                    <li><a href="#bercerita">Bercerita</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+
+            <button id="menu-btn">
+                ☰
+            </button>
+        </div>
+    </div>
+    <!-- Navbar -->
+
+    <!-- Home -->
+    <div class="home" id="beranda">
+        <div class="home-container">
+            <div class="home-box">
+                <h2  data-aos="fade-up" data-aos-duration="1000">Lovely Health</h2>
+                <p href="#tentang" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Tempat mendengarkan keluh kesah kita semua. . .  .  .</p>
+                <a href="#bercerita" href="#tentang" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">Mulai Bercerita</a>
+                
+            </div>
+            <div class="home-box">
+                <div class="animation">
+                    <img src="./assets/hati22.png" alt="Hati pixel" href="#tentang" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Home -->
+
+    <!-- Tentang Kami -->
+    <div class="tentang-kami" id="tentang">
+        <div class="tentang-kami-container">
+            <div class="box-tentang-kami">
+                <h2 data-aos="fade-up" data-aos-duration="1000">Tentang Kami</h2>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Lovely Health adalah sebuah website yang menyediakan ruang bagi individu untuk berbagi pengalaman, perasaan, dan cerita pribadi mereka. Kami percaya bahwa berbagi cerita dapat menjadi langkah penting dalam proses penyembuhan dan pertumbuhan pribadi. Dengan Lovely Health, kami ingin menciptakan komunitas yang mendukung, empatik, dan aman bagi semua orang yang ingin berbagi kisah mereka.</p>
+            </div>
+        </div>
+
+        <div class="box2-wrapper">
+            <div class="box2-tentang-kami" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                <img src="./assets/tanda_tanya.png" alt="Tanda tanya">
+                <h3>Anonim</h3>
+                <p>Semua data yang Anda bagikan di Lovely Health akan tetap bersifat anonim.</p>
+            </div>
+            <div class="box2-tentang-kami" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                <img src="./assets/kunci.png" alt="Kunci">
+                <h3>Keamanan</h3>
+                <p>Data Anda akan dilindungi dengan ketat dan tidak akan pernah dibagikan kepada pihak ketiga.</p>
+            </div>
+            <div class="box2-tentang-kami" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                <img src="./assets/pesan_bercerita.png" alt="Pesan bercerita">
+                <h3>Bebas Bercerita</h3>
+                <p>Ceritakan apa pun yang kamu rasakan, kapan pun kamu siap, dengan caramu sendiri.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Tentang Kami -->
+
+     <!-- Bercerita -->
+      <div class="bercerita" id="bercerita">
+        <div class="container-bercerita">
+            <h2 data-aos="fade-up" data-aos-duration="1000">Bercerita</h2>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="550">Jadwalkan waktu untuk berbagi cerita dan merasa didengarkan.</p>
+            <div class="box-bercerita">
+                <div class="form" class="box2-tentang-kami" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <label for="name" class="nama">Nama</label>
+                    <input type="text" id="name" name="name" placeholder="Masukkan Nama Anda">
+                </div>
+                <div class="form" class="box2-tentang-kami" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="650">
+                    <label for="email" class="nama">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Masukkan Email Anda">
+                </div>
+                <div class="form" class="box2-tentang-kami" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                    <label for="time" class="nama">Tanggal</label>
+                    <input type="date" id="time" name="time" placeholder="Masukkan Tanggal Anda">
+                </div>
+                <div class="form" class="box2-tentang-kami" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+                    <label for="time" class="nama">Waktu</label>
+                    <input type="time" id="time" name="time" >
+                </div>
+                <div class="button" class="box2-tentang-kami" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                    <div class="form">
+                        <button type="submit" id="kirim-btn">Kirim</button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+      </div>
+     <!-- Bercerita -->
+
+     <!-- Footer -->
+      <footer  >
+        <div class="footer-container" id="kontak">
+            <div class="footer-box">
+                <h2 data-aos="fade-up" data-aos-duration="1000">Social Media</h2>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Berikut ini adalah beberapa sarana media social yang ada di Lovely Health yang bertujuan untuk sarana komunikasi jarak jauh untuk menginformasikan atau menampilkan kegiatan - kegiatan yang ada di Lovely Health ini.
+                </p>
+                <div class="social" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" >
+                    <a href="#"> <i class="fa-brands fa-facebook" ></i></a>
+                    <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"> <i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"> <i class="fa-brands fa-youtube"></i></a>
+                    
+                </div>
+            </div>
+            <div class="footer-box">
+                <h2 data-aos="fade-up" data-aos-duration="1000">Menu</h2>
+                <ul data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentang">Tentang Kami</a></li>
+                    <li><a href="#bercerita">Bercerita</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h2 data-aos="fade-up" data-aos-duration="1000">Kontak</h2>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"> <i class="fa-solid fa-envelope"></i>Lovelyhealth@gmail.com</p>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"> <i class="fa-solid fa-phone"></i>087838919201 (Kak Adit)</p>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"> <i class="fa-solid fa-location-pin"></i>Jl. Veteran, Ketawanggede, Lowokwaru, Kota Malang, Jawa Timur 65145 (atau Jl. Veteran No. 8 Malang 65145). </p>
+                </div>
+        </div>
+        <div class="copyright">
+            <p d>&copy; Copyright 2026 by <span>AditDev</span></p>
+        </div>
+      </footer>
+     <!-- Footer -->
+
+
+      <!-- AOS -->
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+      <!-- JS -->
+       <script src="script.js"></script>
+</body>
+</html>
