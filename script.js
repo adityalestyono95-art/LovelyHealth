@@ -10,7 +10,6 @@ kirimBtn.addEventListener("click", function () {
     });
 });
 
-// Hamburger menu
 menuBtn.addEventListener("click", function () {
     navLinks.classList.toggle("active");
 });
